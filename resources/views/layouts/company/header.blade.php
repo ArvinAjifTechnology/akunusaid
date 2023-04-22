@@ -11,13 +11,13 @@
       <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="pricing.html">Pricing</a></li>
-          <li><a href="pricing.html">Tracking</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a class="get-a-quote" href="get-a-quote.html">Get a Quote</a></li>
+          <li><a href="/" class="active">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/services">Services</a></li>
+          <li><a href="/pricing">Pricing</a></li>
+          <li><a href="/pricing">Tracking</a></li>
+          <li><a href="/contact">Contact</a></li>
+          <li><a class="get-a-quote" href="/login">Login</a></li>
         </ul>
       </nav><!-- .navbar -->
 
