@@ -15,7 +15,7 @@
           <li><a href="/about">About</a></li>
           <li><a href="/services">Services</a></li>
           <li><a href="/pricing">Pricing</a></li>
-          <li><a href="/pricing">Tracking</a></li>
+          <li><a href="/tracking">Tracking</a></li>
           <li><a href="/contact">Contact</a></li>
           <li><a class="get-a-quote" href="/login">Login</a></li>
         </ul>

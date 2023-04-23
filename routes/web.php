@@ -2,6 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Company\HomeController;
+use App\Http\Controllers\Company\AboutController;
+use App\Http\Controllers\Company\PricingController;
+use App\Http\Controllers\Company\ContactController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,7 +21,14 @@ use App\Http\Controllers\Company\HomeController;
 //     return view('layouts.company.main');
 // });
 
+/**
+ * Route Ini Digunakan Untuk Company Profile Dan Tracking
+ */
 Route::resource('/', HomeController::class);
+Route::resource('/about', AboutController::class);
+Route::resource('/pricing', PricingController::class);
+Route::resource('/tracking', PricingController::class);
+Route::resource('/contact', ContactHomeController::class);
 
 Auth::routes();
 
