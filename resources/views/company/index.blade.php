@@ -1,5 +1,6 @@
 @extends('layouts.company.main')
 
+@section('title', "Home")
 @section('content')
 <!-- ======= Hero Section ======= -->
 <section id="hero" class="hero d-flex align-items-center">
