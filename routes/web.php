@@ -3,8 +3,10 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Company\HomeController;
 use App\Http\Controllers\Company\AboutController;
-use App\Http\Controllers\Company\PricingController;
 use App\Http\Controllers\Company\ContactController;
+use App\Http\Controllers\Company\PricingController;
+use App\Http\Controllers\Company\ServicesController;
+use Illuminate\Support\Facades\Auth;
 
 /*
 |--------------------------------------------------------------------------
@@ -26,6 +28,7 @@ use App\Http\Controllers\Company\ContactController;
  */
 Route::resource('/', HomeController::class);
 Route::resource('/about', AboutController::class);
+Route::resource('/services', ServicesController::class);
 Route::resource('/pricing', PricingController::class);
 Route::resource('/tracking', PricingController::class);
 Route::resource('/contact', ContactController::class);
