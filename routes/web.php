@@ -28,7 +28,9 @@ Route::resource('/', HomeController::class);
 Route::resource('/about', AboutController::class);
 Route::resource('/pricing', PricingController::class);
 Route::resource('/tracking', PricingController::class);
-Route::resource('/contact', ContactHomeController::class);
+Route::resource('/contact', ContactController::class);
+Route::post('/send-message', [ContactController::class, 'send'])->name('send.message');
+
 
 Auth::routes();
 

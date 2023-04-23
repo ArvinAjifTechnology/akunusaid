@@ -4,6 +4,8 @@ namespace App\Http\Controllers\Company;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
+use App\Mail\ContactMail;
 
 class ContactController extends Controller
 {
@@ -11,4 +13,33 @@ class ContactController extends Controller
     {
         return view('company.contact');
     }
+
+    public function sendMessage(Request $request)
+    {
+        $name = $request->input('name');
+        $email = $request->input('email');
+        $subject = $request->input('subject');
+        $phone = "6281222828906";
+        $message = $request->input('message');
+
+        // Mengirim pesan ke WhatsApp menggunakan API WhatsApp
+        $url = 'https://api.whatsapp.com/send?phone=' . $phone . '&text=' . 'Name%3A%0A' . urlencode($name). '%0AEmail%3A%0A' . urlencode($email) . '%0ASubject%3A%0A'. urlencode($subject). '%0AMessage%3A'. urlencode($message);
+
+        return redirect($url);
+    }
+
+    public function send(Request $request)
+    {
+        $data = array(
+            'name' => $request->name,
+            'email' => $request->email,
+            'subject' => $request->subject,
+            'message' => $request->message
+        );
+
+        Mail::to('2106100@itg.ac.id')->send(new ContactMail($data));
+
+        return redirect('/contact')->with('success', 'Your message has been sent.');
+    }
+
 }
