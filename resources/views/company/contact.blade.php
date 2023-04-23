@@ -6,7 +6,7 @@
 
     <!-- ======= Breadcrumbs ======= -->
     <div class="breadcrumbs">
-      <div class="page-header d-flex align-items-center" style="background-image: url('assets/img/page-header.jpg');">
+      <div class="page-header d-flex align-items-center" style="background-image: url('{{ asset('company') }}/assets/img/page-header.jpg');">
         <div class="container position-relative">
           <div class="row d-flex justify-content-center">
             <div class="col-lg-6 text-center">
@@ -19,7 +19,7 @@
       <nav>
         <div class="container">
           <ol>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="/">Home</a></li>
             <li>Contact</li>
           </ol>
         </div>
@@ -52,7 +52,7 @@
               <i class="bi bi-envelope flex-shrink-0"></i>
               <div>
                 <h4>Email:</h4>
-                <p>info@example.com</p>
+                <p>2106100@itg.ac.id</p>
               </div>
             </div><!-- End Info Item -->
 
@@ -93,7 +93,7 @@
                 {{-- <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div> --}}
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center"><button type="submit" class="btn btn-primary">Send Message</button></div>
             </form>
           </div><!-- End Contact Form -->
 
