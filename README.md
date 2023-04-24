@@ -13,9 +13,19 @@ Kami
 
 ## Cara Install
 
-[1. Download Git di](https://git-scm.com/downloads).
-2. Setelah Itu Install Git.
-[3. Download Composer Versi Terbaru Di](https://getcomposer.org).
+-1. Install PHP Versi Terbaru Minimal Versi 8.1.
+-[2. Download Git di](https://git-scm.com/downloads).
+-3. Setelah Itu Install Git.
+-[4. Download Composer Versi Terbaru](https://getcomposer.org).
+-5 Setelah Itu Install Compooser.
+-6. Setelah Menginstall Git Selanjutnya Cloning Project Ini "https://github.com/ArvinAjifTechnology/ekspedisi_barang.git" ke folder yang diinginkan.
+```
+cd <Folder Tujuan>
+```
+
+```
+git clone https://github.com/ArvinAjifTechnology/ekspedisi_barang.git
+```
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
