@@ -14,7 +14,7 @@ Kami
 ## Cara Install
 
 - [Install PHP Versi Terbaru Minimal Versi 8.1](https://www.php.net/downloads.php).
-- [Download Git di](https://git-scm.com/downloads).
+- [Download Git](https://git-scm.com/downloads).
 - Setelah Itu Install Git.
 - [Download Composer Versi Terbaru](https://getcomposer.org).
 - Setelah Itu Install Composer.
