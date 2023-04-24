@@ -408,5 +408,5 @@
       </div>
     </section><!-- End Frequently Asked Questions Section -->
 
-  </main><!-- End #main -->
+</main><!-- End #main -->
 @endsection
