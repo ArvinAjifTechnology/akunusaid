@@ -18,7 +18,7 @@ Kami
 - Setelah Itu Install Git.
 - [Download Composer Versi Terbaru](https://getcomposer.org).
 - Setelah Itu Install Composer.
-- Setelah Menginstall Git Selanjutnya Cloning Project Ini "https://github.com/ArvinAjifTechnology/ekspedisi_barang.git" ke folder yang diinginkan.
+- Setelah Menginstall Git Selanjutnya Buka Terminal Dan Cloning Project Ini "https://github.com/ArvinAjifTechnology/ekspedisi_barang.git" ke folder yang diinginkan.
 ```
 cd <Folder Tujuan>
 ```
@@ -32,6 +32,11 @@ git clone https://github.com/ArvinAjifTechnology/ekspedisi_barang.git
 ```
 cd ekspedisi_barang
 ```
+- Setelah Itu Untuk Menginstall Laravel Ketikan Peritah
+```
+composer install
+```
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
