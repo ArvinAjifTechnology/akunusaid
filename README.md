@@ -36,6 +36,19 @@ cd ekspedisi_barang
 ```
 composer install
 ```
+- Setelah Itu Kita Buat File .env Dengan Mengetikan
+```
+cp .env.example .env
+```
+- Setelah Membuat File .env, Selanjutnya menambahkan App Key Dengan Perintah
+```
+php artisan key:generate
+```
+- Untuk Menjalankan Project Ini Kita Ketikan
+```
+php artisan serve
+```
+
 
 ## About Laravel
 
