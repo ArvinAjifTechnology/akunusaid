@@ -26,6 +26,12 @@ cd <Folder Tujuan>
 ```
 git clone https://github.com/ArvinAjifTechnology/ekspedisi_barang.git
 ```
+- Tunggu hingga proses cloning selesai.
+- Setelah proses cloning selesai, pindah ke folder hasil cloning dengan perintah
+
+```
+cd ekspedisi_barang
+```
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
