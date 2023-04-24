@@ -17,7 +17,7 @@ Kami
 - [Download Git](https://git-scm.com/downloads).
 - Setelah Itu Install Git [Tutorial](https://youtu.be/e-6OkXRqWaE).
 - [Download Composer Versi Terbaru](https://getcomposer.org).
-- Setelah Itu Install Composer [Tutorial] (https://youtu.be/hehfb2oz8xI).
+- Setelah Itu Install Composer [Tutorial](https://youtu.be/hehfb2oz8xI).
 - Setelah Menginstall Git Selanjutnya Buka Terminal Dan Cloning Project Ini "https://github.com/ArvinAjifTechnology/ekspedisi_barang.git" ke folder yang diinginkan.
 ```
 cd <Folder Tujuan>
