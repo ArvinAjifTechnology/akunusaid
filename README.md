@@ -109,6 +109,10 @@ php artisan serve
     MAIL_FROM_NAME="${APP_NAME}"
     ```
     - Pada Bagian MAIL_USERNAME Dan MAIL_PASSWORD Kita Isikan Dengan Akun Yang telah Kita Siapkan Dengan Password Yang Tadi Kita Generate Oleh Google.
+    - Dan untuk MAIL_PORT yang bisa digunakan yaitu
+    ```
+    587 atau 465
+    ```
     - Setelah Perjalanan Yang Panjang Untuk Mengsetup Project Ini Telah Siap Di Gunakan.
 
 ## About Laravel
