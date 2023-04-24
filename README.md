@@ -68,6 +68,10 @@ php artisan serve
     DB_USERNAME=root
     DB_PASSWORD=
     ```
+    - Untuk Membuat Tabel Nya Kita Ketikan
+    ```
+    php artisan migrate:fresh
+    ```
 
 
 ## About Laravel
