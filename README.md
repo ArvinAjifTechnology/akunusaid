@@ -48,6 +48,16 @@ php artisan key:generate
 ```
 php artisan serve
 ```
+- Selamat Project Berhasil Di Jalankan
+    ## Setup Database
+    - Setelah Kita Berhasil Setup Project Selanjutnya Kita Akan Setup Database.
+    - Buat Database "ekspedisi_barang".
+    ```
+    mysql -uroot -p
+    ```
+    ```
+    create database ekspedisi_barang;
+    ```
 
 
 ## About Laravel
