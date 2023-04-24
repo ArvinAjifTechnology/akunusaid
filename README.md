@@ -76,27 +76,27 @@ php artisan serve
     - Selanjutnya Kita Akan Setup Email.
     ## Setup Email
     Dalam Project Ini Telah Dilengkapi Dengan Fitur Pengiriman Mail Secara Otomatis. Fitur Ini Membutuhkan HOST SMTP. HOST SMTP Ini Bisa Didapatkan Dari Website           Provider Yang Berbayar tetapi dalam project ini menggunakan gmail sebagai SMTP nya, Berikut Langkah-Langkah Nya.
-        - Siapkan Akun Google yang akan di jadikan sebagai Host.
-        - Setelah itu buka "myaccount.google.com".
-        - Setelah Itu Kita Cari "Apps Password".
-        - Lalu Verifikasi Bahwa Itu Anda.
-        - Kemudian Pada Bagian "Pilih Aplikasi" Kita Pilih Lainnya (Nama Kustom).
-        - Lalu kita Beri Nama Bebas Misalkan "Laravel".
-        - Kemudian Klik "Buat".
-        - Secara Otomatis Akan Tergenerate.
-        - Simpan Kode Itu.
-        - Tahap Selanjutnya Buka File ".env".
-        - Pada Bagian
-        ```
-        MAIL_MAILER=smtp
-        MAIL_HOST=mailpit
-        MAIL_PORT=1025
-        MAIL_USERNAME=null
-        MAIL_PASSWORD=null
-        MAIL_ENCRYPTION=null
-        MAIL_FROM_ADDRESS="hello@example.com"
-        MAIL_FROM_NAME="${APP_NAME}"
-        ```
+    - Siapkan Akun Google yang akan di jadikan sebagai Host.
+    - Setelah itu buka "myaccount.google.com".
+    - Setelah Itu Kita Cari "Apps Password".
+    - Lalu Verifikasi Bahwa Itu Anda.
+    - Kemudian Pada Bagian "Pilih Aplikasi" Kita Pilih Lainnya (Nama Kustom).
+    - Lalu kita Beri Nama Bebas Misalkan "Laravel".
+    - Kemudian Klik "Buat".
+    - Secara Otomatis Akan Tergenerate.
+    - Simpan Kode Itu.
+    - Tahap Selanjutnya Buka File ".env".
+    - Pada Bagian
+    ```
+    MAIL_MAILER=smtp
+    MAIL_HOST=mailpit
+    MAIL_PORT=1025
+    MAIL_USERNAME=null
+    MAIL_PASSWORD=null
+    MAIL_ENCRYPTION=null
+    MAIL_FROM_ADDRESS="hello@example.com"
+    MAIL_FROM_NAME="${APP_NAME}"
+    ```
 
 
 ## About Laravel
