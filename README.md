@@ -13,12 +13,12 @@ Kami
 
 ## Cara Install
 
-- 1. [Install PHP Versi Terbaru Minimal Versi 8.1](https://www.php.net/downloads.php).
-- [2. Download Git di](https://git-scm.com/downloads).
-- 3. Setelah Itu Install Git.
-- [4. Download Composer Versi Terbaru](https://getcomposer.org).
-- 5 Setelah Itu Install Compooser.
-- 6. Setelah Menginstall Git Selanjutnya Cloning Project Ini "https://github.com/ArvinAjifTechnology/ekspedisi_barang.git" ke folder yang diinginkan.
+- [Install PHP Versi Terbaru Minimal Versi 8.1](https://www.php.net/downloads.php).
+- [Download Git di](https://git-scm.com/downloads).
+- Setelah Itu Install Git.
+- [Download Composer Versi Terbaru](https://getcomposer.org).
+- Setelah Itu Install Composer.
+- Setelah Menginstall Git Selanjutnya Cloning Project Ini "https://github.com/ArvinAjifTechnology/ekspedisi_barang.git" ke folder yang diinginkan.
 ```
 cd <Folder Tujuan>
 ```
