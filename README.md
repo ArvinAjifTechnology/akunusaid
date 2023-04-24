@@ -102,14 +102,13 @@ php artisan serve
     MAIL_MAILER=smtp
     MAIL_HOST=smtp.gmail.com
     MAIL_PORT=587
-    MAIL_USERNAME=2106100@itg.ac.id
-    MAIL_PASSWORD=vqddqwiodwbymqfu
+    MAIL_USERNAME=youremail@example.com
+    MAIL_PASSWORD= // Isikan Dengan Kode Yang Di generate oleh google
     MAIL_ENCRYPTION=tls
     MAIL_FROM_ADDRESS="2106100@itg"
     MAIL_FROM_NAME="${APP_NAME}"
-
     ```
-
+    - Pada Bagian MAIL_USERNAME Dan MAIL_PASSWORD Kita Isikan Dengan Akun Yang telah Kita Siapkan Dengan Password Yang Tadi Kita Generate Oleh Google.
 
 ## About Laravel
 
