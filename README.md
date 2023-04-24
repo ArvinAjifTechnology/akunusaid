@@ -58,6 +58,16 @@ php artisan serve
     ```
     create database ekspedisi_barang;
     ```
+    - Setelah Membuat Database Selanjutnya Kita Akan Setup Database Di File .env.
+    - Buka File .env Lalu Pada Baris 11 Ubah Menjadi.
+    ```
+    DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=ekspedisi_barang
+    DB_USERNAME=root
+    DB_PASSWORD=
+    ```
 
 
 ## About Laravel
