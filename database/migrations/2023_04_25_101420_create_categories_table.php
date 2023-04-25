@@ -13,6 +13,10 @@ return new class extends Migration
     {
         Schema::create('categories', function (Blueprint $table) {
             $table->id();
+            $table->string('category_name');
+            $table->string('estimate');
+            $table->string('cost');
+            $table->timestamp('validity_date');
             $table->timestamps();
         });
     }
