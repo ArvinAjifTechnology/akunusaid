@@ -15,7 +15,7 @@
       <div class="row">
         <div class="col-4">
             <div class="row">
-                <img src="{{ asset('company') }}/assets/img/Logo Akunusa Express.png" alt="" width="100px">
+                <img src="{{ asset('company') }}/assets/img/Logo Akunusa Express.png" alt="">
             </div>
             <div class="row mt-5">
                 <div class="info-item d-flex" data-aos="fade-up">
