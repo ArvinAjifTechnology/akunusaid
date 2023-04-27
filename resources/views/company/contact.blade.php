@@ -65,8 +65,8 @@
         </div>
         <div class="col-4 maps">
             <div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d247.39369826541946!2d107.89606074931883!3d-7.206669859333567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sid!2sid!4v1682259783587!5m2!1sid!2sid"height="340px" style="border:0;" allowfullscreen=""></iframe>
-              </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d247.39369826541946!2d107.89606074931883!3d-7.206669859333567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sid!2sid!4v1682259783587!5m2!1sid!2sid" width = "100%" height="340px" style="border:0;" allowfullscreen=""></iframe>
+            </div>
               <!-- End Google Maps -->
         </div>
       </div>
