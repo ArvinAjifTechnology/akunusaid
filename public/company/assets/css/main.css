@@ -1557,6 +1557,9 @@ section {
 .contact {
     margin-top: 3em;
 }
+.contact img {
+    width: 2em;
+}
 .contact .info-item+.info-item {
   margin-top: 40px;
 }
