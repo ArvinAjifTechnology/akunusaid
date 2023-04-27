@@ -315,13 +315,13 @@ section {
   transition: all 0.5s;
   z-index: 997;
   padding: 30px 0;
-  box-shadow: 0px 2px 20px rgba(14, 29, 52, 0.8);
+  box-shadow: 0px 2px 20px rgba(14, 29, 52, 0.6);
 }
 
 .header.sticked {
   background: rgba(255, 255, 255, 0.9);
   padding: 15px 0;
-  box-shadow: 0px 2px 20px rgba(14, 29, 52, 0.8);
+  box-shadow: 0px 2px 20px rgba(14, 29, 52, 0.6);
 }
 
 .header .logo img {
