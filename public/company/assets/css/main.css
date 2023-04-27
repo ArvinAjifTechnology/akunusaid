@@ -20,8 +20,14 @@
 /* Colors */
 :root {
   --color-default: #0a0d13;
-  --color-primary: #0d42ff;
-  --color-secondary: #0e1d34;
+  --color-primary: #ffd976;
+  --color-secondary: #683F15;
+}
+
+.btn-coklat{
+  color:#fff;
+  background-color: #683F15;
+  border-radius: 10px;
 }
 
 /* Smooth scroll behavior */
@@ -76,7 +82,7 @@ section {
   text-transform: uppercase;
   margin-bottom: 20px;
   padding-bottom: 0;
-  color: #001973;
+  color: var(--color-secondary);
   position: relative;
   z-index: 2;
   margin-bottom: 20px;
@@ -140,7 +146,7 @@ section {
 
 .breadcrumbs .page-header:before {
   content: "";
-  background-color: rgba(14, 29, 52, 0.8);
+  /* background-color: rgba(14, 29, 52, 0.8); */
   position: absolute;
   inset: 0;
 }
@@ -148,12 +154,12 @@ section {
 .breadcrumbs .page-header h2 {
   font-size: 56px;
   font-weight: 500;
-  color: #fff;
+  color: var(--color-secondary);
   font-family: var(--font-secondary);
 }
 
 .breadcrumbs .page-header p {
-  color: rgba(255, 255, 255, 0.8);
+  color: var(--color-secondary)
 }
 
 .breadcrumbs nav {
@@ -303,7 +309,7 @@ section {
   font-size: 30px;
   margin: 0;
   font-weight: 700;
-  color: #fff;
+  color: #000;
   font-family: var(--font-primary);
 }
 
@@ -316,15 +322,15 @@ section {
   }
 
   .navbar ul {
-    margin: 8;
-    padding: 15;
+    margin: 0;
+    padding: 0;
     align-content: center;
     display: flex;
     list-style: none;
     align-items: center;
     /* box-shadow: 2px 2px 2px rgba(0,0,0,0.8); */
-    background-color: #7b7d86;
-    border-radius: 10px;
+    background-color: #EAEAEA;
+    border-radius: 20px 50px 50px  20px;
   }
 
   .navbar li {
@@ -340,7 +346,7 @@ section {
     font-family: var(--font-primary);
     font-size: 16px;
     font-weight: 400;
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(0,0,0,1);
     white-space: nowrap;
     transition: 0.3s;
   }
@@ -356,7 +362,7 @@ section {
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover>a {
-    color: #000;
+    color: #FF8C00;
   }
 
   .navbar .get-a-quote,
@@ -371,7 +377,7 @@ section {
   .navbar .get-a-quote:hover,
   .navbar .get-a-quote:focus:hover {
     color: #fff;
-    background: #2756ff;
+    background: var(--color-secondary);
   }
 
   .navbar .dropdown ul {
@@ -471,8 +477,6 @@ section {
     padding: 50px 0 10px 0;
     margin: 0;
     background: rgba(14, 29, 52, 0.9);
-    display: flex;
-    box-shadow: 2px 2px 2px rgba(0,0,0,0.8);
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
@@ -506,17 +510,17 @@ section {
     color: #fff;
   }
 
-  .get-a-quote,
-  .get-a-quote:focus {
-    background-color: var(--color-primary);
+  .navbar .get-a-quote,
+  .navbar .get-a-quote:focus {
+    background: var(--color-primary);
     padding: 8px 20px;
-    border-radius: 100px;
+    border-radius: 4px;
     margin: 15px;
-    color: #000;
+    color: #fff;
   }
 
-  .get-a-quote:hover,
-  .get-a-quote:focus:hover {
+  .navbar .get-a-quote:hover,
+  .navbar .get-a-quote:focus:hover {
     color: #fff;
     background: rgba(13, 66, 255, 0.8);
   }
@@ -642,7 +646,7 @@ section {
   font-weight: 700;
   font-size: 32px;
   font-family: var(--font-secondary);
-  color: #001f8d;
+  color: var(--color-secondary);
 }
 
 .about .content ul {
@@ -762,7 +766,7 @@ section {
 --------------------------------------------------------------*/
 .services .card {
   border: 1px solid rgba(14, 29, 52, 0.15);
-  background: #fff;
+  background: #D9D9D9;
   position: relative;
   border-radius: 0;
   height: 100%;
@@ -1714,8 +1718,28 @@ section {
   background-size: cover;
   background-position: center;
   position: relative;
+  margin-top: 100px;
   padding: 120px 0 60px 0;
   color: rgba(0, 0, 0, 0.8);
+}
+.hero img{
+  padding: 10px;
+  margin: 0px;
+  width: 16em;
+  justify-content: center;
+}
+
+.hero h1 {
+  padding: 0;
+  margin: 0;
+  font-size: 25px;
+  font-weight: 0;
+}
+
+.hero p {
+  padding: 0;
+  margin: 0;
+  font-size: 200px;
 }
 
 .hero h2 {
@@ -1740,8 +1764,11 @@ section {
 
 .hero form {
   background: #fff;
+  size: 29px;
   padding: 10px;
+  margin-top: 50px;
   border-radius: 10px;
+  box-shadow: 0px 2px 20px rgba(14, 29, 52, 0.9);
 }
 
 .hero form .form-control {
