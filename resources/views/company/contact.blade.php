@@ -15,7 +15,7 @@
       <div class="row">
         <div class="col-4">
             <div class="row">
-                <img src="{{ asset('company') }}/assets/img/Logo Akunusa Express.png" alt="" width="200px">
+                <img src="{{ asset('company') }}/assets/img/Logo Akunusa Express.png" alt="" width="100px">
             </div>
             <div class="row mt-5">
                 <div class="info-item d-flex" data-aos="fade-up">
@@ -60,12 +60,12 @@
               <div class="form-group mt-3" data-aos="fade-up">
                 <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
               </div>
-              <div class="text-center" data-aos="fade-up"><button type="submit" class="btn btn-coklat">Send Message</button></div>
+              <div class="text-center" data-aos="fade-up"><button type="submit" class="btn btn-primary mt-3">Send Message</button></div>
             </form><!-- End Contact Form -->
         </div>
         <div class="col-4">
             <div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d247.39369826541946!2d107.89606074931883!3d-7.206669859333567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sid!2sid!4v1682259783587!5m2!1sid!2sid" width="100%" height="340px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d247.39369826541946!2d107.89606074931883!3d-7.206669859333567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sid!2sid!4v1682259783587!5m2!1sid!2sid"height="340px" style="border:0;" allowfullscreen=""></iframe>
               </div>
               <!-- End Google Maps -->
         </div>
