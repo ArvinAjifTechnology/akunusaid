@@ -6,7 +6,7 @@
 
     <!-- ======= Breadcrumbs ======= -->
     <div class="breadcrumbs">
-      <div class="page-header d-flex align-items-center" style="background-image: url('{{ asset('company') }}/assets/img/page-header.jpg');">
+      <div class="page-header d-flex align-items-center">
         <div class="container position-relative">
           <div class="row d-flex justify-content-center">
             <div class="col-lg-6 text-center">
@@ -94,7 +94,7 @@
                 {{-- <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div> --}}
-              <div class="text-center"><button type="submit" class="btn btn-primary">Send Message</button></div>
+              <div class="text-center"><button type="submit" class="btn btn-coklat">Send Message</button></div>
             </form>
           </div><!-- End Contact Form -->
 
