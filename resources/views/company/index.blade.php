@@ -18,8 +18,8 @@
           </div>
           <h1 data-aos="fade-up" data-aos-delay="100">Kami mengirimkan produk dan barang Anda dengan aman ke tujuan Anda dalam waktu yang cepat, aman, dan terpercaya.</h1>
           <form action="#" class="form-search d-flex align-items-stretch mb-3" data-aos="fade-up" data-aos-delay="200">
-            <input type="text" class="form-control" placeholder="ZIP code or CitY">
-            <button type="submit" class="btn btn-coklat">Search</button>
+            <input type="text" class="form-control" placeholder="Masukan Nomor Resi">
+            <button type="submit" class="btn btn-coklat">Track</button>
           </form>
 
           <div class="row gy-4" data-aos="fade-up" data-aos-delay="400">
