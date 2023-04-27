@@ -7,6 +7,11 @@
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
       <div class="container" data-aos="fade-up" >
+        <div class="section-header">
+            <span>Contact</span>
+            <h2>Contact</h2>
+
+        </div>
       <div class="row">
         <div class="col-4">
             <div class="row">
