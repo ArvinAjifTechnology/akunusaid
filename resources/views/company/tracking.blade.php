@@ -47,7 +47,7 @@
         <div class="row gy-4">
         </div>
       </div>
-      <div class="container">
+    <div class="container tracking">
         <div class="row">
             <div class="col-lg-6 mt-5">
                 <div class="col-lg-12 mb-3 order-2 order-lg-1 d-flex flex-column justify-content-center">
@@ -56,12 +56,12 @@
                         <button type="submit" class="btn btn-coklat">Track</button>
                     </form>
                     </div>
-                <div class="col-lg-6 tracking-box">Nomor Resi : 2023062300001</div>
-                <div class="col-lg-6 tracking-box mt-5">Dari : Garut</div>
-                <div class="col-lg-6 tracking-box mt-3">Tujuan : Jakarta</div>
+                <div class="col-lg-6 tracking-box" data-aos="fade-up" data-aos-delay="300">Nomor Resi : 2023062300001</div>
+                <div class="col-lg-6 tracking-box mt-5" data-aos="fade-up" data-aos-delay="400">Dari : Garut</div>
+                <div class="col-lg-6 tracking-box mt-1" data-aos="fade-up" data-aos-delay="500">Tujuan : Jakarta</div>
             </div>
             <div class="col-lg-6 mt-5">
-                <table class="table table-hover">
+                <table class="table table-hover"data-aos="fade-up" data-aos-delay="300">
                     <thead>
                         <tr>
                           <th scope="col">No</th>
