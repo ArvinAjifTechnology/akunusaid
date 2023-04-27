@@ -27,7 +27,7 @@
   <link href="{{ asset("company") }}/assets/vendor/aos/aos.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="{{ asset("company") }}/assets/css/main.css" rel="stylesheet">
+  <link href="/company/assets/css/main.css" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: Logis

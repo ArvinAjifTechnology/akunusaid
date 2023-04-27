@@ -197,7 +197,7 @@ section {
 --------------------------------------------------------------*/
 .scroll-top {
   position: fixed;
-  visibility: hidden;
+  visibility: visible;
   opacity: 0;
   right: 15px;
   bottom: 15px;
@@ -217,7 +217,7 @@ section {
 
 .scroll-top:hover {
   background: rgba(13, 66, 255, 0.8);
-  color: #fff;
+  color: #000;
 }
 
 .scroll-top.active {
@@ -289,13 +289,13 @@ section {
 }
 
 .header.sticked {
-  background: rgba(14, 29, 52, 0.9);
+  background: rgba(255, 255, 255, 0.9);
   padding: 15px 0;
-  box-shadow: 0px 2px 20px rgba(14, 29, 52, 0.1);
+  box-shadow: 0px 2px 20px rgba(14, 29, 52, 0.9);
 }
 
 .header .logo img {
-  max-height: 40px;
+  max-height: 60px;
   margin-right: 6px;
 }
 
@@ -316,11 +316,15 @@ section {
   }
 
   .navbar ul {
-    margin: 0;
-    padding: 0;
+    margin: 8;
+    padding: 15;
+    align-content: center;
     display: flex;
     list-style: none;
     align-items: center;
+    /* box-shadow: 2px 2px 2px rgba(0,0,0,0.8); */
+    background-color: #7b7d86;
+    border-radius: 10px;
   }
 
   .navbar li {
@@ -352,16 +356,16 @@ section {
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover>a {
-    color: #fff;
+    color: #000;
   }
 
   .navbar .get-a-quote,
   .navbar .get-a-quote:focus {
-    background: var(--color-primary);
+    /* background: var(--color-primary); */
     padding: 8px 20px;
     margin-left: 30px;
-    border-radius: 4px;
-    color: #fff;
+    border-radius: 100px;
+    color: #000;
   }
 
   .navbar .get-a-quote:hover,
@@ -380,7 +384,7 @@ section {
     z-index: 99;
     opacity: 0;
     visibility: hidden;
-    background: #fff;
+    background: #000;
     box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
     transition: 0.3s;
     border-radius: 4px;
@@ -467,6 +471,8 @@ section {
     padding: 50px 0 10px 0;
     margin: 0;
     background: rgba(14, 29, 52, 0.9);
+    display: flex;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.8);
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
@@ -500,17 +506,17 @@ section {
     color: #fff;
   }
 
-  .navbar .get-a-quote,
-  .navbar .get-a-quote:focus {
-    background: var(--color-primary);
+  .get-a-quote,
+  .get-a-quote:focus {
+    background-color: var(--color-primary);
     padding: 8px 20px;
-    border-radius: 4px;
+    border-radius: 100px;
     margin: 15px;
-    color: #fff;
+    color: #000;
   }
 
-  .navbar .get-a-quote:hover,
-  .navbar .get-a-quote:focus:hover {
+  .get-a-quote:hover,
+  .get-a-quote:focus:hover {
     color: #fff;
     background: rgba(13, 66, 255, 0.8);
   }
@@ -1703,13 +1709,13 @@ section {
 .hero {
   width: 100%;
   min-height: 50vh;
-  background-color: var(--color-secondary);
-  background-image: url("../img/hero-bg.png");
+  /* background-color: var(--color-secondary);
+  background-image: url("../img/hero-bg.png"); */
   background-size: cover;
   background-position: center;
   position: relative;
   padding: 120px 0 60px 0;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(0, 0, 0, 0.8);
 }
 
 .hero h2 {
@@ -1717,7 +1723,7 @@ section {
   padding: 0;
   font-size: 48px;
   font-weight: 700;
-  color: #fff;
+  color: #000;
 }
 
 @media (max-width: 575px) {
