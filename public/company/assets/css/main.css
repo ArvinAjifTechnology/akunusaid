@@ -315,13 +315,13 @@ section {
   transition: all 0.5s;
   z-index: 997;
   padding: 30px 0;
-  box-shadow: 0px 2px 20px rgba(14, 29, 52, 0.9);
+  box-shadow: 0px 2px 20px rgba(14, 29, 52, 0.8);
 }
 
 .header.sticked {
   background: rgba(255, 255, 255, 0.9);
   padding: 15px 0;
-  box-shadow: 0px 2px 20px rgba(14, 29, 52, 0.9);
+  box-shadow: 0px 2px 20px rgba(14, 29, 52, 0.8);
 }
 
 .header .logo img {
@@ -789,7 +789,7 @@ section {
 # Services Section
 --------------------------------------------------------------*/
 .services{
-    margin-top: 5em;
+    margin-top: 8em;
 }
 .services .card {
   border: 1px solid rgba(14, 29, 52, 0.15);
