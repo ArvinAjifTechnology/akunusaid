@@ -4,15 +4,6 @@
 
 @section('content')
 <main id="main">
-
-    <!-- ======= Breadcrumbs ======= -->
-    <div class="breadcrumbs">
-      <nav>
-        <div class="container">
-        </div>
-      </nav>
-    </div><!-- End Breadcrumbs -->
-
     <!-- ======= Services Section ======= -->
     <section id="service" class="services pt-0">
       <div class="container" data-aos="fade-up">
