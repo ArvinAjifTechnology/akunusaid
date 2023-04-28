@@ -6,7 +6,11 @@
 <!-- ======= About Us Section ======= -->
     <section id="about" class="about">
       <div class="container" data-aos="fade-up">
+        <div class="section-header">
+            <span>About</span>
+            <h2>About</h2>
 
+          </div>
         <div class="row gy-4">
           <div class="col-lg-6 position-relative align-self-start order-lg-last order-first">
             <img src="{{ asset('company') }}/assets/img/about.jpg" class="img-fluid" alt="">
