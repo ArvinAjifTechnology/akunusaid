@@ -26,12 +26,12 @@
 
           </div>
         </div>
-        <div class="col-lg-3 order-1 order-lg-2 services" data-aos="zoom-out">
+        <div class="col-lg-3 order-1 order-lg-2" data-aos="zoom-out">
             <div class="card">
                 <div class="card-img">
                     {{-- <img src="{{ asset('company') }}/assets/img/hero-img.svg" alt="" class="img-fluid"> --}}
                   </div>
-                  <h3><a href="service-details.html" class="stretched-link">Company Profile</a></h3>
+                  <h3><a href="/about" class="stretched-link">Company Profile</a></h3>
                   <p>Menawarkan pengiriman ke rumah di sekitar kota, di mana produk Anda akan berada di depan pintu Anda dalam waktu 48-72 jam.</p>
                   <a href="/about" class="btn btn-about">About Me</a>
                 {{-- <img src="{{ asset('company') }}/assets/img/hero-img.svg" class="img-fluid mb-3 mb-lg-0" alt=""> --}}
