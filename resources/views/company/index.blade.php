@@ -8,7 +8,7 @@
       <div class="row gy-4 d-flex justify-content-between">
         <div class="col-lg-8 order-2 order-lg-1 d-flex flex-column justify-content-center">
           <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
               <img src="{{ asset('company') }}/assets/img/Logo Akunusa Express.png" alt="" width="200px">
             </div>
             <div class="col-lg-8">
@@ -26,9 +26,16 @@
 
           </div>
         </div>
-
-        <div class="col-lg-3 order-1 order-lg-2 hero-img" data-aos="zoom-out">
-          <img src="{{ asset('company') }}/assets/img/hero-img.svg" class="img-fluid mb-3 mb-lg-0" alt="">
+        <div class="col-lg-3 order-1 order-lg-2 services" data-aos="zoom-out">
+            <div class="card">
+                <div class="card-img">
+                    {{-- <img src="{{ asset('company') }}/assets/img/hero-img.svg" alt="" class="img-fluid"> --}}
+                  </div>
+                  <h3><a href="service-details.html" class="stretched-link">Company Profile</a></h3>
+                  <p>Menawarkan pengiriman ke rumah di sekitar kota, di mana produk Anda akan berada di depan pintu Anda dalam waktu 48-72 jam.</p>
+                  <a href="/about" class="btn btn-about">About Me</a>
+                {{-- <img src="{{ asset('company') }}/assets/img/hero-img.svg" class="img-fluid mb-3 mb-lg-0" alt=""> --}}
+            </div>
         </div>
 
       </div>
