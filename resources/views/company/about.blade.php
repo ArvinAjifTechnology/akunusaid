@@ -4,42 +4,42 @@
 @section('content')
 <main id="main">
 <!-- ======= About Us Section ======= -->
-    <section id="about" class="about">
-      <div class="container" data-aos="fade-up">
+    <section id="about" class="about mt-5">
         <div class="section-header">
             <span>About</span>
             <h2>About</h2>
-          </div>
+        </div>
+      <div class="container" data-aos="fade-up">
         <div class="row gy-4">
           <div class="col-lg-6 position-relative align-self-start order-lg-last order-first">
-            <img src="{{ asset('company') }}/assets/img/about.jpg" class="img-fluid" alt="">
-            <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox play-btn"></a>
+            <img src="{{ asset('company') }}/assets/img/Logo Akunusa Express.png" class="img-fluid" alt="">
+            {{-- <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox play-btn"></a> --}}
           </div>
           <div class="col-lg-6 content order-last  order-lg-first">
             <h3>About Us</h3>
             <p>
-              Dolor iure expedita id fuga asperiores qui sunt consequatur minima. Quidem voluptas deleniti. Sit quia molestiae quia quas qui magnam itaque veritatis dolores. Corrupti totam ut eius incidunt reiciendis veritatis asperiores placeat.
+                AKUNUSA adalah sebuah perusahaan IT consultant yang menyediakan solusi teknologi informasi terdepan untuk membantu klien kami meningkatkan kinerja bisnis mereka. Layanan kami mencakup analisis kebutuhan bisnis, desain dan pengembangan sistem, integrasi perangkat lunak dan perangkat keras, manajemen proyek, pengujian dan evaluasi sistem, serta pelatihan dan dukungan.
             </p>
             <ul>
               <li data-aos="fade-up" data-aos-delay="100">
                 <i class="bi bi-diagram-3"></i>
                 <div>
-                  <h5>Ullamco laboris nisi ut aliquip consequat</h5>
-                  <p>Magni facilis facilis repellendus cum excepturi quaerat praesentium libre trade</p>
+                  <h5>Tim</h5>
+                  <p>Tim ahli kami terdiri dari para profesional teknologi informasi yang terlatih dan berpengalaman dalam berbagai sektor industri. Kami memahami betul bagaimana teknologi dapat membantu memperbaiki proses bisnis, meningkatkan efisiensi, dan menghasilkan keuntungan yang lebih besar.</p>
                 </div>
               </li>
               <li data-aos="fade-up" data-aos-delay="200">
                 <i class="bi bi-fullscreen-exit"></i>
                 <div>
-                  <h5>Magnam soluta odio exercitationem reprehenderi</h5>
-                  <p>Quo totam dolorum at pariatur aut distinctio dolorum laudantium illo direna pasata redi</p>
+                  <h5>Skliss</h5>
+                  <p>Kami mampu bekerja sama dengan berbagai klien dari perusahaan besar,  pemerintah,organisasi nirlaba, hingga usaha kecil dan menengah. Dalam setiap proyek, kami selalu berusaha memberikan solusi yang terbaik dan sesuai dengan kebutuhan bisnis klien kami.</p>
                 </div>
               </li>
               <li data-aos="fade-up" data-aos-delay="300">
                 <i class="bi bi-broadcast"></i>
                 <div>
-                  <h5>Voluptatem et qui exercitationem</h5>
-                  <p>Et velit et eos maiores est tempora et quos dolorem autem tempora incidunt maxime veniam</p>
+                  <h5>Solution</h5>
+                  <p>Jika Anda mencari solusi teknologi informasi terdepan untuk membantu  meningkatkan kinerja bisnis Anda, maka jangan ragu untuk menghubungi kami dan bergabung dengan jajaran klien kami yang puas dengan layanan kami.</p>
                 </div>
               </li>
             </ul>
