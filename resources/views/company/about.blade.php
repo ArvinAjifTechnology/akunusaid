@@ -9,7 +9,6 @@
         <div class="section-header">
             <span>About</span>
             <h2>About</h2>
-
           </div>
         <div class="row gy-4">
           <div class="col-lg-6 position-relative align-self-start order-lg-last order-first">
