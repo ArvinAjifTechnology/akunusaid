@@ -28,7 +28,12 @@
 .btn-coklat{
   color:#fff;
   background-color: #683F15;
-  border-radius: 10px;
+  border-radius: 100px;
+}
+
+.btn-coklat:hover {
+    color: #ffffff !important;
+    background: var(--color-secondary) !important;
 }
 
 /* Tracking */
@@ -1825,6 +1830,11 @@ section {
 
   .hero .card:hover .card-img img {
     transform: scale(1.1);
+  }
+  .hero .card .btn-coklat {
+    padding: 1em;
+    color: #ffffff;
+    font-variant: var(--color-secondary);
   }
 
 .hero h1 {
