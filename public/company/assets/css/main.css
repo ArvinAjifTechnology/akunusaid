@@ -32,8 +32,8 @@
 }
 
 .btn-coklat:hover {
-    color: #ffffff !important;
-    background: var(--color-secondary) !important;
+    color: #ffffff;
+    background: var(--color-secondary);
 }
 
 /* Tracking */
