@@ -26,7 +26,7 @@
       </div>
     <div class="container tracking">
         <div class="row">
-            <div class="col-lg-6 mt-5">
+            <div class="col-lg-6 mt-4">
                 <div class="col-lg-12 mb-3 order-2 order-lg-1 d-flex flex-column justify-content-center">
                     <form action="#" class="form-search d-flex align-items-stretch mb-3" data-aos="fade-up" data-aos-delay="200">
                         <input type="text" class="form-control" placeholder="Masukan Nomor Resi">
