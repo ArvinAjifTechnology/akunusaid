@@ -13,8 +13,8 @@ return new class extends Migration
     {
         Schema::create('delivery_statuses', function (Blueprint $table) {
             $table->id();
-            $table->foreign('delivery_id')->references('id')->on('deliveries')->onDelete('cascade');
-            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
+            $table->foreignId('delivery_id')->nullable();
+            $table->foreignId('user_id')->nullable();
             $table->string('region', 100)->nullable();
             $table->string('date_receiped', 100)->nullable();
             $table->string('description', 100)->nullable();
