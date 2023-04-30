@@ -28,12 +28,16 @@
 .btn-coklat{
   color:#fff;
   background-color: #683F15;
-  border-radius: 100px;
+  border-radius: 10px;
 }
 
 .btn-coklat:hover {
     color: #ffffff;
-    background: var(--color-secondary);
+    background: rgba(104, 63, 21, 0.8);
+}
+.btn-coklat:active {
+    color: var(--color-secondary);
+    background-color: rgba(104, 63, 21, 0.9);
 }
 
 /* Tracking */
@@ -1832,7 +1836,8 @@ section {
     transform: scale(1.1);
   }
   .hero .card .btn-coklat {
-    padding: 1em;
+    /* padding: 1em; */
+    border-radius: 1em;
     color: #ffffff;
     font-variant: var(--color-secondary);
   }
@@ -1888,9 +1893,10 @@ section {
 }
 
 .hero form .form-control:hover,
-.hero form .form-control:focus {
+.hero form .form-control:focus,
+.hero form .form-control:active {
   outline: none;
-  box-shadow: none;
+  /* box-shadow: none; */
 }
 
 .hero form .btn-primary {
