@@ -33,7 +33,7 @@
                   </div>
                   <h3>Company Profile</h3>
                   <p>Menawarkan pengiriman ke rumah di sekitar kota, di mana produk Anda akan berada di depan pintu Anda dalam waktu 48-72 jam.</p>
-                  <a href="/about" class="btn btn-about">About Me</a>
+                  <a href="/about" class="btn btn-coklat">Watch The Video</a>
                 {{-- <img src="{{ asset('company') }}/assets/img/hero-img.svg" class="img-fluid mb-3 mb-lg-0" alt=""> --}}
             </div>
         </div>
