@@ -10,8 +10,9 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="{{ asset("company/assets/img/favicon.png") }}" rel="icon">
-  <link href="{{ asset("company") }}/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  {{-- <link href="{{ asset("company/assets/img/favicon.png") }}" rel="icon"> --}}
+  <link href="{{ asset('company') }}/assets/img/Logo Akunusa Express.png"  rel="icon">
+  {{-- <link href="{{ asset("company") }}/assets/img/apple-touch-icon.png" rel="apple-touch-icon"> --}}
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
