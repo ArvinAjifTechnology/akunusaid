@@ -31,7 +31,7 @@ Route::resource('/', HomeController::class);
 Route::resource('/about', AboutController::class);
 Route::resource('/agen-list', AgenListController::class);
 Route::resource('/services', ServicesController::class);
-Route::resource('/pricing', PricingController::class)->name('pricing');
+Route::get('/pricing', PricingController::class, 'index')->name('pricing');
 // Route::resource('/tracking', PricingController::class);
 Route::get('/tracking', function () {
     return view('company.tracking');
