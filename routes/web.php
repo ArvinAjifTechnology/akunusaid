@@ -37,7 +37,7 @@ Route::get('/tracking', function () {
     return view('company.tracking');
 });
 Route::get('/contact', [ContactController::class, 'index'])->name('contact');
-Route::post('/send-message', [ContactController::class, 'sendToWhatsapp'])->name('send.message');
+Route::post('/send-message', [ContactController::class, 'sendToEmail'])->name('send.message');
 
 
 Auth::routes();
