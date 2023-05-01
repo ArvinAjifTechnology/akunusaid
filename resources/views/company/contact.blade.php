@@ -12,6 +12,11 @@
             <h2>Contact</h2>
 
         </div>
+        @if(session('success'))
+            <div class="alert alert-success" role="alert">
+            {{ session('success') }}
+            </div>
+        @endif
       <div class="row">
         <div class="col-4">
             <div class="row">
