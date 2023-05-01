@@ -20,9 +20,9 @@ use App\Http\Controllers\Company\ServicesController;
 |
 */
 
-// Route::get('/', function () {
-//     return view('layouts.company.main');
-// });
+Route::get('/welcome', function () {
+    return view('welcome');
+});
 
 /**
  * Route Ini Digunakan Untuk Company Profile Dan Tracking
