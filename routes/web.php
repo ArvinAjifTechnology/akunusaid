@@ -36,7 +36,7 @@ Route::resource('/pricing', PricingController::class)->name('pricing');
 Route::get('/tracking', function () {
     return view('company.tracking');
 });
-Route::resource('/contact', ContactController::class)->name('contact');
+Route::get('/contact', ContactController::class, 'index')->name('contact');
 Route::post('/send-message', [ContactController::class, 'sendToWhatsapp'])->name('send.message');
 
 
