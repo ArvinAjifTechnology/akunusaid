@@ -26,7 +26,8 @@ class ContactController extends Controller
         $url = 'https://api.whatsapp.com/send?phone=' . $phone . '&text=' . 'Name%3A%0A' . urlencode($name). '%0AEmail%3A%0A' . urlencode($email) . '%0ASubject%3A%0A'. urlencode($subject). '%0AMessage%3A'. urlencode($message);
 
         // redirect();
-       return redirect($url)->route('contact')->with('success', 'Your message has been sent via WhatsApp!');
+    //    return redirect($url)->route('contact')->with('success', 'Your message has been sent via WhatsApp!');
+    return redirect($url . '&success=Your+message+has+been+sent+via+WhatsApp!');
     }
 
     public function sendToEmail(Request $request)
