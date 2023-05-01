@@ -31,12 +31,12 @@ Route::resource('/', HomeController::class);
 Route::resource('/about', AboutController::class);
 Route::resource('/agen-list', AgenListController::class);
 Route::resource('/services', ServicesController::class);
-Route::resource('/pricing', PricingController::class);
+Route::resource('/pricing', PricingController::class)->name('pricing');
 // Route::resource('/tracking', PricingController::class);
 Route::get('/tracking', function () {
     return view('company.tracking');
 });
-Route::resource('/contact', ContactController::class);
+Route::resource('/contact', ContactController::class)->name('contact');
 Route::post('/send-message', [ContactController::class, 'sendToWhatsapp'])->name('send.message');
 
 
