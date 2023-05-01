@@ -14,7 +14,7 @@ class ContactController extends Controller
         return view('company.contact');
     }
 
-    public function sendMessage(Request $request)
+    public function sendToWhatsapp(Request $request)
     {
         $name = $request->input('name');
         $email = $request->input('email');
@@ -28,7 +28,7 @@ class ContactController extends Controller
         return redirect($url);
     }
 
-    public function sendEmail(Request $request)
+    public function sendToEmail(Request $request)
     {
         $data = array(
             'name' => $request->name,
