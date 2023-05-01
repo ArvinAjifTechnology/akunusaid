@@ -25,7 +25,8 @@ class ContactController extends Controller
         // Mengirim pesan ke WhatsApp menggunakan API WhatsApp
         $url = 'https://api.whatsapp.com/send?phone=' . $phone . '&text=' . 'Name%3A%0A' . urlencode($name). '%0AEmail%3A%0A' . urlencode($email) . '%0ASubject%3A%0A'. urlencode($subject). '%0AMessage%3A'. urlencode($message);
 
-        return redirect($url);
+        // redirect();
+       return redirect($url)->route('contact')->with('success', 'Your message has been sent via WhatsApp!');
     }
 
     public function sendToEmail(Request $request)
