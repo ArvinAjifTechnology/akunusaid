@@ -28,7 +28,7 @@ class ContactController extends Controller
         return redirect($url);
     }
 
-    public function send(Request $request)
+    public function sendEmail(Request $request)
     {
         $data = array(
             'name' => $request->name,
