@@ -30,7 +30,7 @@ git clone https://github.com/ArvinAjifTechnology/ekspedisi_barang.git
 - Setelah proses cloning selesai, pindah ke folder hasil cloning dengan perintah
 
 ```
-cd ekspedisi_barang
+cd akunusaid
 ```
 - Setelah Itu Untuk Menginstall Laravel Ketikan Peritah
 ```
