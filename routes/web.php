@@ -8,6 +8,7 @@ use App\Http\Controllers\Company\ContactController;
 use App\Http\Controllers\Company\PricingController;
 use App\Http\Controllers\Company\AgenListController;
 use App\Http\Controllers\Company\ServicesController;
+use App\Http\Controllers\DashboardController;
 
 /*
 |--------------------------------------------------------------------------
@@ -41,5 +42,12 @@ Route::post('/send-message', [ContactController::class, 'sendToEmail'])->name('s
 
 
 Auth::routes();
+// Route::get('/dashboard', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Route::get('/dashboard', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::middleware(['auth'])->group(function () {
+    /**
+     * Route Ini Adalah Inti Dari Aplikasi Ini
+     */
+
+    Route::resource('/dashboard', DashboardController::class);
+});
