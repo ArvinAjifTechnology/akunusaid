@@ -2,13 +2,14 @@
 
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\Company\HomeController;
 use App\Http\Controllers\Company\AboutController;
 use App\Http\Controllers\Company\ContactController;
 use App\Http\Controllers\Company\PricingController;
 use App\Http\Controllers\Company\AgenListController;
 use App\Http\Controllers\Company\ServicesController;
-use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\DeliveryManagementController;
 
 /*
 |--------------------------------------------------------------------------
@@ -50,4 +51,5 @@ Route::middleware(['auth'])->group(function () {
      */
 
     Route::resource('/dashboard', DashboardController::class);
+    Route::resource('/delivery-management', DeliveryManagementController::class);
 });
