@@ -4,13 +4,13 @@
     <ul class="sidebar-nav" id="sidebar-nav">
 
       <li class="nav-item">
-        <a class="nav-link " href="index.html">
+        <a class="nav-link " href="{{ url('dashboard') }}">
           <i class="bi bi-bar-chart"></i>
           <span>Dashboard</span>
         </a>
       </li><!-- End Dashboard Nav -->
       <li class="nav-item">
-        <a class="nav-link " href="index.html">
+        <a class="nav-link " href="{{ url('delivery-management') }}">
           <i class="bi bi-grid"></i>
           <span>Managemen Pengiriman</span>
         </a>
