@@ -10,7 +10,7 @@ class Delivery extends Model
     use HasFactory;
     public function deliveryStatus()
     {
-        return $this->belongsTo(DeliveryStatus::class);
+        return $this->hasOne(DeliveryStatus::class);
     }
 
 }
