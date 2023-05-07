@@ -80,10 +80,20 @@
                 <label for="cost">Cost:</label>
                 <input type="text" class="form-control" id="cost" name="cost">
               </div>
-              <div class="form-group">
-                <label for="user_id">User ID:</label>
-                <input type="text" class="form-control" id="user_id" name="user_id">
+              <div class="select2-drpdwn">
+                <div class="form-group">
+                    <label for="user_id">User:</label>
+                    <select class="js-example-basic-single col-sm-12" id="user_id" name="user_id">
+                    {{-- @foreach($users as $user)
+                        <option value="{{ $user->id }}">{{ $user->name }}</option>
+                    @endforeach --}}
+                    <option value="arvin">arvin</option>
+                    <option value="egha">Egha</option>
+                    <option value="sita">Sita</option>
+                    </select>
+                </div>
               </div>
+
               <div class="form-group">
                 <label for="date_receiped">Date Received:</label>
                 <input type="text" class="form-control" id="date_receiped" name="date_receiped">
@@ -92,7 +102,7 @@
                 <label for="date_done">Date Done:</label>
                 <input type="text" class="form-control" id="date_done" name="date_done">
               </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
+              <button type="submit" class="btn btn-primary mt-3 justify-end">Submit</button>
         </div>
     </div>
 </div>
