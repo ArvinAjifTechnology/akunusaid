@@ -8,9 +8,4 @@ use Illuminate\Database\Eloquent\Model;
 class DeliveryStatus extends Model
 {
     use HasFactory;
-
-    public function deliveries()
-    {
-        return $this->hasMany(Delivery::class);
-    }
 }
