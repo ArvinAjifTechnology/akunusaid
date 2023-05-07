@@ -29,7 +29,7 @@ return new class extends Migration
             $table->string('destination_pos_code')->nullable();
             $table->string('type_id')->nullable();
             $table->foreignId('category_id')->nullable();
-            $table->foreignId('delivery_status_id')->nullable();
+            $table->foreignId('delivery_status_id')->constrained('delivery_statuses')->nullable();
             $table->bigInteger('qty')->nullable();
             $table->string('weight')->nullable();
             $table->double('cost', 15, 8)->nullable();
