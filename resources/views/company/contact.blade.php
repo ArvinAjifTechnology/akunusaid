@@ -27,7 +27,7 @@
                     <i class="bi bi-geo-alt flex-shrink-0" data-aos="fade-up"></i>
                     <div>
                       <h4>Location:</h4>
-                      <p>A108 Adam Street, New York, NY 535022</p>
+                      <p>Rumah Siapa?, Indonesia, ID 12345</p>
                     </div>
                   </div><!-- End Info Item -->
 
@@ -43,7 +43,7 @@
                     <i class="bi bi-phone flex-shrink-0"></i>
                     <div>
                       <h4>Call:</h4>
-                      <p>+1 5589 55488 55</p>
+                      <p>+62 8 Berapa ?</p>
                     </div>
                   </div><!-- End Info Item -->
             </div>
@@ -70,7 +70,7 @@
         </div>
         <div class="col-4 maps">
             <div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63372.42102183473!2d107.610112!3d-6.9173248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e64c5e8866e5%3A0x37be7ac9d575f7ed!2sGedung%20Sate!5e0!3m2!1sid!2sid!4v1682231867616!5m2!1sid!2sid" width="100%" height="340px" style="border:0;" allowfullscreen="" ></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.2990507208838!2d107.89364817599157!3d-7.206683770752426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68b1d119852f2f%3A0x116c33498b7cab1d!2sInstitut%20Teknologi%20Garut!5e0!3m2!1sid!2sid!4v1683520677056!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
               <!-- End Google Maps -->
         </div>
