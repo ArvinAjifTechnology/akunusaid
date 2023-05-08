@@ -29,14 +29,6 @@
 
   <!-- Template Main CSS File -->
   <link href="{{ asset("company") }}/assets/css/main.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: Logis
-  * Updated: Mar 10 2023 with Bootstrap v5.2.3
-  * Template URL: https://bootstrapmade.com/logis-bootstrap-logistics-website-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
