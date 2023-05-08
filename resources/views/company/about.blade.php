@@ -98,11 +98,11 @@
 
         </div>
 
-        <div class="row" data-aos="fade-up" data-aos-delay="100">
+        <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
 
-          <div class="col-lg-4 col-md-6 d-flex">
+          <div class="col-lg-2 col-md-6 d-flex">
             <div class="member">
-              <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
+              <img src="{{asset('company')}}/assets/img/team/eghaphoto.jpg" class="img-fluid" alt="">
               <div class="member-content">
                 <h4>Egha Satria Bagaskara</h4>
                 <span>Web Development</span>
@@ -119,7 +119,7 @@
             </div>
           </div><!-- End Team Member -->
 
-          <div class="col-lg-4 col-md-6 d-flex">
+          <div class="col-lg-2 col-md-6 d-flex">
             <div class="member">
               <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
               <div class="member-content">
@@ -138,12 +138,48 @@
             </div>
           </div><!-- End Team Member -->
 
-          <div class="col-lg-4 col-md-6 d-flex">
+          <div class="col-lg-2 col-md-6 d-flex">
             <div class="member">
               <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
               <div class="member-content">
                 <h4>Heryaman</h4>
                 <span>Content</span>
+                <p>
+                  "Sapa Tuh"
+                </p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-youtube"></i></a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+          <div class="col-lg-2 col-md-6 d-flex">
+            <div class="member">
+              <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
+              <div class="member-content">
+                <h4>Sita Sri Andari</h4>
+                <span>2106050</span>
+                <p>
+                  "Sapa Tuh"
+                </p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+          <div class="col-lg-2 col-md-6 d-flex">
+            <div class="member">
+              <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
+              <div class="member-content">
+                <h4>Agil Nahzar</h4>
+                <span>2106090</span>
                 <p>
                   "Sapa Tuh"
                 </p>
